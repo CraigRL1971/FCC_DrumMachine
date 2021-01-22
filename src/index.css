@@ -1,0 +1,11 @@
+* {
+  font-family: 'Pattaya', sans-serif;
+}
+
+html { 
+  background: url('https://cdn.pixabay.com/photo/2017/01/19/01/58/drum-1991365_960_720.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

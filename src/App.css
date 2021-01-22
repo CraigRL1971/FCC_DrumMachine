@@ -1,0 +1,40 @@
+.modal__wrapper {
+  border-style: solid;
+  border-width: 2px;
+  border-color: lightseagreen;
+  border-radius: 4px;
+  background-color: darkcyan;
+  color: #fff;
+}
+
+.drum-pad {
+  width: 70%;
+}
+
+.drum-pad:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+#display{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 4px;
+  background-color: lightslategray;
+  width: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (max-width: 480px) {
+  #display {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .drum-pad {
+    padding-left: 0;
+    width: 100%;
+  }
+}
